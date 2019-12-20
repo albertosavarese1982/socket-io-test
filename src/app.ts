@@ -17,7 +17,7 @@ const server = http.createServer(app);
 
 const port = process.env.PORT as string;
 
-if (!sticky.listen(server, +port, { workers: numCPUs })) {
+if (!sticky.listen(server, +port, { workers: numCPUs-1 })) {
     // Master
     server.once('listening', () => {
         console.log('APP LISTENING ON PORT 3000');
