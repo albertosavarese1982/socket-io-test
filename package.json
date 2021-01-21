@@ -34,7 +34,7 @@
     "g-crypt": "^1.1.0",
     "memored": "^1.1.1",
     "nodemon": "^1.19.4",
-    "socket.io": "^2.3.0",
+    "socket.io": "^2.4.0",
     "socket.io-redis": "^5.2.0",
     "sticky-session": "^1.1.2",
     "typescript": "^3.6.3"
